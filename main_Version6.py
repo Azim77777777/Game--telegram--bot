@@ -5,7 +5,7 @@ from db import init_db
 from handlers import register_handlers, register_admin_handlers
 from games import register_game_handlers
 
-TOKEN = os.getenv("BOT_TOKEN") or "YOUR_TOKEN_HERE"
+TOKEN = os.getenv("BOT_TOKEN") or "8238937405:AAH0F5lV29L4zAYK3UQvEuCW05lTQXCzbJA"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher(bot)
