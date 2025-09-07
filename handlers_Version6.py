@@ -7,7 +7,7 @@ from db import (
     get_all_user_ids, create_promo, use_promo, get_promo_logs
 )
 
-ADMIN_IDS = [123456789]  # Замени на свои Telegram ID
+ADMIN_IDS = [8205524611]  # Замени на свои Telegram ID
 
 START_MENU = (
     "╔══════════════════╗\n"
